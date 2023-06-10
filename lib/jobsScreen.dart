@@ -45,7 +45,7 @@ class _JobsScreenState extends State<JobsScreen> {
                   color: Colors.amber),
               children: [
                 TextSpan(
-                  text: "Arham",
+                  text: " Arham",
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 35,
@@ -259,7 +259,7 @@ class _JobsScreenState extends State<JobsScreen> {
                           style: TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 25,
-                              color: Color(0xffFF0505)),
+                              color: containerColor[i] ),
                         ),
                       ],
                     ),

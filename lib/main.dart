@@ -3,7 +3,7 @@ import 'package:project_3/add_check_list.dart';
 import 'package:project_3/practise.dart';
 import 'package:project_3/profiles.dart';
 import 'package:project_3/project.dart';
-import 'package:project_3/urgent.dart';
+// import 'package:project_3/urgent.dart';
 
 import 'jobsScreen.dart';
 void main() {
@@ -20,7 +20,7 @@ class My extends StatelessWidget {
         // home: AddCheckList(),
         // home: Practise(),
         home: JobsScreen(),
-        // home: Job(),
+  
 
     );
   }
